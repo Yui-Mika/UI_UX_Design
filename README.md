@@ -5,8 +5,8 @@ This repository serves as a portfolio documenting my learning journey, homework 
 
 > **Student:** Duong Ngoc Linh Dan (Yui-Mika) <br>
 > **Subject:** User Interface Design <br>
-> **Study at** Van Lang University <br>
-> **Lecturer** Nguyen Thai Anh <br>
+> **Study at:** Van Lang University <br>
+> **Lecturer:** Nguyen Thai Anh <br>
 
 ---
 
