@@ -1,6 +1,6 @@
 # 🎨 UI/UX Design Coursework
 
-Welcome to my repository for the **UI/UX Design** course.
+Welcome to my repository for the **User Interface Design** course.
 This repository serves as a portfolio documenting my learning journey, homework assignments, and projects created throughout the semester.
 
 > **Student:** Duong Ngoc Linh Dan (Yui-Mika) <br>
@@ -16,9 +16,11 @@ Here is the list of submitted homework and projects.
 
 | # | Assignment | Description | Technologies | Live Demo |
 |:-:|:---|:---|:---|:--:|
-| **01** | **[Homework 1: Sweetie Bakery](./Homework1)** | A multi-page responsive website for a fictional bakery brand. Focused on semantic HTML structure and CSS styling without JS frameworks. | `HTML5` `CSS3` | [View Demo 🚀](https://ui-ux-homework-1.vercel.app/) |
-| **02** | *Coming Soon* | *Upcoming assignment...* | - | - |
+| **01** | **[Homework 1: Sweetie Bakery (CSS)](./Homework1)** | A multi-page responsive website for a fictional bakery brand. Focused on semantic HTML structure and CSS styling without JS frameworks. | `HTML5` `CSS3` | [View Demo 🚀](https://ui-ux-homework-1.vercel.app/) |
+| **02** | **[Homework 2: Sweetie Bootstrap](./Homework2)** | Rebuilding the bakery interface using **Bootstrap 5** for a minimalist responsive layout. Also explores No-Code tools with **Mobirise**. | `Bootstrap 5` `Mobirise` | [View Demo 🚀](LINK_VERCEL_HW2_CUA_BAN) |
 | **03** | *Coming Soon* | *Upcoming assignment...* | - | - |
+
+> *Note: The Live Demo for Homework 2 showcases the Bootstrap version.*
 
 ---
 
@@ -26,9 +28,10 @@ Here is the list of submitted homework and projects.
 
 The projects in this repository utilize the following technologies and tools:
 
-* **Design:** Figma, Adobe XD (if applicable).
-* **Frontend:** HTML5, CSS3 (Flexbox, Grid), JavaScript (Vanilla).
-* **Hosting:** Vercel / GitHub Pages.
+* **Design & No-Code:** Figma, Mobirise.
+* **Frontend Frameworks:** Bootstrap 5.
+* **Core:** HTML5, CSS3 (Flexbox, Grid), JavaScript (Vanilla).
+* **Hosting:** Vercel.
 * **Version Control:** Git & GitHub.
 
 ---
@@ -49,5 +52,3 @@ Each homework folder contains its own source code and assets.
 
 ---
 *This repository is maintained for educational purposes.*
-
-
