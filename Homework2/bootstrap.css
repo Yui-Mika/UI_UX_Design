@@ -1,0 +1,133 @@
+/* custom_bootstrap.css */
+
+/* 1. Nhúng Font chữ */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Pacifico&display=swap');
+
+/* 2. Định nghĩa lại biến màu của Bootstrap */
+:root {
+    /* Đổi màu chính (primary) thành màu hồng dâu */
+    --bs-primary: #e11d48;
+    --bs-primary-rgb: 225, 29, 72;
+
+    /* Đổi màu phụ (secondary) thành màu vàng bơ */
+    --bs-warning: #fbbf24;
+    --bs-warning-rgb: 251, 191, 36;
+
+    /* Màu nền nhẹ nhàng */
+    --bs-light: #fff1f2;
+    --bs-body-bg: #fff1f2;
+
+    /* Font chữ */
+    --font-heading: 'Pacifico', cursive;
+    --font-body: 'Nunito', sans-serif;
+}
+
+body {
+    font-family: var(--font-body);
+    color: #4a0404; /* Màu chữ nâu đậm */
+}
+
+/* 3. Tùy chỉnh Navbar */
+.navbar {
+    /* Dùng màu primary đã định nghĩa lại ở trên */
+    background-color: var(--bs-primary) !important;
+    box-shadow: 0 4px 12px rgba(225, 29, 72, 0.15);
+}
+
+.navbar-brand {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+}
+
+.nav-link {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+/* 4. Tùy chỉnh Typography & Hero Section */
+h1, h2, h3, h4, h5, .display-4 {
+    font-family: var(--font-heading);
+    color: var(--bs-primary);
+}
+
+.bg-light.p-5 {
+    background: radial-gradient(circle at top right, rgba(253, 164, 175, 0.4), transparent) !important;
+    border-radius: 0 0 50% 50% / 40px !important; /* Bo cong phần dưới hero */
+}
+
+/* 5. Tùy chỉnh Nút bấm (Buttons) */
+.btn {
+    border-radius: 50px; /* Bo tròn nút */
+    font-weight: 700;
+    padding: 10px 25px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary, .btn-danger {
+    /* Gộp chung style cho các nút màu chính */
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(225, 29, 72, 0.3);
+}
+
+.btn-warning {
+    color: #4a0404 !important; /* Chữ màu nâu trên nền vàng */
+}
+
+/* 6. Tùy chỉnh Card sản phẩm */
+.card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(225, 29, 72, 0.15) !important;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Nút outline trong card */
+.btn-outline-primary {
+    color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    border-width: 2px;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--bs-primary);
+    color: #fff;
+}
+
+/* 7. Tùy chỉnh Form Card */
+.card-header.bg-primary {
+    background-color: var(--bs-primary) !important;
+    border-bottom: none;
+}
+
+.form-control:focus {
+    border-color: var(--bs-primary);
+    box-shadow: 0 0 0 0.25rem rgba(225, 29, 72, 0.25);
+}
