@@ -17,7 +17,7 @@ Here is the list of submitted homework and projects.
 | # | Assignment | Description | Technologies | Live Demo |
 |:-:|:---|:---|:---|:--:|
 | **01** | **[Homework 1: Sweetie Bakery (CSS)](./Homework1)** | A multi-page responsive website for a fictional bakery brand. Focused on semantic HTML structure and CSS styling without JS frameworks. | `HTML5` `CSS3` | [View Demo 🚀](https://ui-ux-homework-1.vercel.app/) |
-| **02** | **[Homework 2: Sweetie Bootstrap](./Homework2)** | Rebuilding the bakery interface using **Bootstrap 5** for a minimalist responsive layout. Also explores No-Code tools with **Mobirise**. | `Bootstrap 5` `Mobirise` | [View Demo 🚀](LINK_VERCEL_HW2_CUA_BAN) |
+| **02** | **[Homework 2: Sweetie Bootstrap](./Homework2)** | Rebuilding the bakery interface using **Bootstrap 5** for a minimalist responsive layout. Also explores No-Code tools with **Mobirise**. | `Bootstrap 5` `Mobirise` | [View Demo 🚀](https://ui-ux-design-two.vercel.app/) |
 | **03** | *Coming Soon* | *Upcoming assignment...* | - | - |
 
 > *Note: The Live Demo for Homework 2 showcases the Bootstrap version.*
