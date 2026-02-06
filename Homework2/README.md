@@ -20,7 +20,16 @@ Check out the live versions deployed on Vercel:
 ## 📸 Screenshots
 
 ### 1. Bootstrap Version (Minimalist Style)
+<img width="1919" height="863" alt="image" src="https://github.com/user-attachments/assets/b7decc9c-1b38-43f3-9bf1-f0041c1f56a4" />
+<img width="1900" height="865" alt="image" src="https://github.com/user-attachments/assets/f5dd2538-0fc7-4ec6-92d7-4adabc238077" />
+<img width="1919" height="864" alt="image" src="https://github.com/user-attachments/assets/63b78d90-1d5d-4413-94d1-2a42099dfb5f" />
+
 ### 2. Mobirise Version (Drag & Drop Style)
+<img width="1898" height="870" alt="image" src="https://github.com/user-attachments/assets/95e664fa-9ffd-4f99-b04e-ee24ce9a07d9" />
+<img width="1897" height="861" alt="image" src="https://github.com/user-attachments/assets/465fc5d0-80b2-4fca-8691-b5afd42c6442" />
+<img width="1898" height="862" alt="image" src="https://github.com/user-attachments/assets/db95ce41-c420-4c90-9f8f-fbd900330f41" />
+<img width="1899" height="864" alt="image" src="https://github.com/user-attachments/assets/3cb32c1c-4258-4eb5-8046-cd4fda77f3a3" />
+
 ---
 
 ## ✨ Features & Comparison
@@ -62,3 +71,4 @@ Homework2/
 └── mobirise/            <-- Folder containing the Mobirise version
     ├── index.html
     └── assets/
+
