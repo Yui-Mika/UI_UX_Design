@@ -1,0 +1,31 @@
+:root {
+    --primary-pink: #c73e5c;
+    --light-pink: #fff5f7;
+    --dark-pink: #a82e46;
+}
+
+body {
+    font-family: 'Nunito', sans-serif; /* Font tiếng Việt mượt */
+    color: #444;
+}
+
+.hero-title, .section-title, .navbar-brand {
+    font-family: 'Lora', serif; /* Font tiêu đề sang trọng */
+}
+
+/* Các thuộc tính CSS khác giữ nguyên như tui đã đưa trước đó */
+.text-pink { color: var(--primary-pink); }
+.bg-light-pink { background-color: var(--light-pink); }
+.btn-pink { background-color: var(--primary-pink); color: white; border: none; transition: 0.4s; }
+.btn-pink:hover { background-color: var(--dark-pink); transform: scale(1.05); color: white; }
+.btn-outline-pink { color: var(--primary-pink); border: 2px solid var(--primary-pink); }
+.btn-outline-pink:hover { background-color: var(--primary-pink); color: white; }
+.product-card { border-radius: 20px; transition: 0.3s; }
+.product-card:hover { transform: translateY(-10px); }
+.card-img-container { height: 220px; overflow: hidden; border-radius: 20px 20px 0 0; }
+.card-img-container img { width: 100%; height: 100%; object-fit: cover; }
+.floating-anim { animation: float 6s ease-in-out infinite; }
+@keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-20px); } }
+.title-line { width: 60px; height: 4px; background-color: var(--primary-pink); border-radius: 2px; }
+.hero-section { min-height: 85vh; background: linear-gradient(135deg, #fff 50%, var(--light-pink) 100%); }
+.rounded-circle-custom { border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%; width: 90%; max-width: 450px; }
